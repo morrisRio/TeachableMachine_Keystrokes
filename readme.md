@@ -28,14 +28,14 @@ Open the `keytapper.js` file and edit the switch cases (Line 25).
 
 ```javascript
 switch (message) {
-  case "yourFristLabel": //<-- Insert the name of your label here
-    keyToPress = "1"; //<-- name the key you want to be tapped
-    break;
+        case 'yourFristLabel': //<-- Insert the name of your label here
+                keyToPress = '1'; //<-- name the key you want to be tapped
+                break;
 
-  case "yourSecondLabel":
-    keyToPress = "2";
-    break;
-  /*
+        case 'yourSecondLabel':
+                keyToPress = '2';
+                break;
+        /*
         .
         .
         .
@@ -59,7 +59,7 @@ All done!
 - Go to your terminal and run the keytapper script by typing:
 
 ```bash
-node run keytapper.js
+node keytapper.js
 ```
 
 You may need to grant permission for the script to use accesibilty features in the System Preferences.
